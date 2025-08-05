@@ -1,44 +1,19 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titulo</title>
-    <!-- CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
-    <!-- JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
-</head>
-<header class="text-light text-center py-4 d-flex justify-content-between align-items-center mb-3 mb-sm-4">      
-    <span><h4 class="mb-0">Titulo Header</h4></span>
-    <div></div><!-- Filler -->
-</header>
-<body>
-    <div class="custom">
-        <!-- Header -->
-        <?//php require_once "views/layout/header.php"; ?>
-        <!-- // Header -->
-        <!-- Main Content -->
-        <div class="container">
-            <div class="row">
-                <!-- Seccion central -->
-                <div class="col-lg-9 col-md-11 col-sm-11 col-10 mx-auto central-item">
-                    <div class="row">
-                        <?//php echo $seccionCentral; ?>
-                    </div>
+    <?php require_once "views/layouts/header.php"; ?>
+    <body>
+        <div class="container d-flex flex-column my-2 p-3 border-orange" style="height: calc(100vh - 1.5rem);">
+            <header class="d-flex align-content-center p-3 text-white">
+                <h1 class="fs-5">TheLastGarageKid</h1>
+            </header>
+            <div class="row p-3 flex-grow-1">
+                <div class="col-3 p-3 d-none d-lg-block md-hidden">
+                    <?php require_once "views/layouts/menu.php"; ?>
                 </div>
-                <!-- // Seccion central -->
+                <div class="col-12 col-lg-9 p-3">
+                    <?php require_once "views/pages/projects.php"; ?>
+                </div>
             </div>
-        </div>
-        <!-- // Main Content -->
-        <!-- Footer -->
-        <footer class="text-light text-center p-3 mt-sm-4">
-            <p>© 2025 reUsados. Derechos reservados.</p>
-        </footer>
-        <!-- // Footer -->        
-    </div>
-    <!-- JS -->
-    <?//php require_once "views/layout/javascript.php"; ?>
-    <!-- // JS -->
-</body>
-</html>
+        <?php require_once "views/layouts/footer.php"; ?>
+        </div> 
+    </body>
+</html>         

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body {
+  background: #ffffff;
+  font: 400 0.75rem/1.125rem 'Press Start 2P', cursive, 'Source Code Pro',
+    Inconsolata, 'Lucida Console', Terminal, 'Courier New', Courier;
+}
+header,
+section,
+aside,
+footer {
+  /* background: #cfddd2; */
+  background: #f58024;
+}
+
+.border-orange {
+  border: 1.25rem solid #f58024;
+}
+
+.border-garage {
+  border: 0.55rem solid #999999;
+}
+
+.border-contenedores {
+  border: 0.3rem solid #999999;
+}
