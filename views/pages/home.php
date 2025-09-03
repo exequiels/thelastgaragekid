@@ -4,7 +4,9 @@
 </div>
 
 <div class="border-garage mt-2">
-<div class="p-2 m-1 border-contenedores bg-body-secondary"><h3 class="fs-6 mt-2">2025/09/02 - React Birth Day Cards</h3></div>
+  <div class="p-2 m-1 border-contenedores bg-body-secondary">
+    <h3 class="fs-6 mt-2">2025/09/02 - React Birth Day Cards</h3>
+  </div>
   <div class="p-2 m-1 ms-2">
     <h3 class="fs-6">What is this project about or how did it start?</h3>
     <p class="mt-3">
@@ -19,6 +21,11 @@
       <a href="https://tarjetagratis.com/" target="_blank" rel="noopener">
         tarjetagratis.com
       </a>
+    </p>
+    <p>
+      <a href="<?= $baseUrl ?>/assets/imgs/projects/tarjetagratis/tarjetagratis.png" target="_blank" rel="noopener">
+        <img src="<?= $baseUrl ?>/assets/imgs/projects/tarjetagratis/thumbnails/tarjetagratis.png" alt="Tarjeta Gratis Thumbnail" class="img-fluid border-contenedores">
+      </a>  
     </p>
     <h3 class="fs-6">What I've used for this project?</h3>
     <ul class="mt-2">
@@ -103,7 +110,15 @@
         </a>
       </li>      
     </ul>
-    I think this is more like  re-launch I'm still working on this project, but I created it two months ago, added the date has today because today I launched TheLastGarageKid.com
+    <p>
+      Github Repo:
+      <a href="https://github.com/exequiels/tarjetagratis" target="_blank" rel="noopener">
+        tarjetagratis
+      </a>
+    </P>
+    <p>
+      I think this is more like  re-launch I'm still working on this project, but I created it two months ago, added the date has today because today I launched TheLastGarageKid.com
+    </p>
   </div>
 </div>
 
