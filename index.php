@@ -1,19 +1,36 @@
-<html lang="en">
-    <?php require_once "views/layouts/header.php"; ?>
-    <body>
-        <div class="container d-flex flex-column my-2 p-3 border-orange" style="height: calc(100vh - 1.5rem);">
-            <header class="d-flex align-content-center p-3 text-white">
-                <h1 class="fs-5">TheLastGarageKid</h1>
-            </header>
-            <div class="row p-3 flex-grow-1">
-                <div class="col-3 p-3 d-none d-lg-block md-hidden">
-                    <?php require_once "views/layouts/menu.php"; ?>
-                </div>
-                <div class="col-12 col-lg-9 p-3">
-                    <?php require_once "views/pages/projects.php"; ?>
-                </div>
-            </div>
-        <?php require_once "views/layouts/footer.php"; ?>
-        </div> 
-    </body>
-</html>         
+<?php
+
+$basePath = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
+$requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
+
+if ($basePath !== '' && strpos($requestPath, $basePath) === 0) {
+    $requestPath = substr($requestPath, strlen($basePath));
+}
+if ($requestPath === '') {
+    $requestPath = '/';
+}
+
+$routes = [
+    '/'          => 'home',
+    '/projects'  => 'projects',
+    '/tools'     => 'tools',
+    '/who'     => 'who',
+    '/webrings'   => 'webrings',
+    '/contact'   => 'contact',
+];
+
+$view = $routes[$requestPath] ?? '404';
+$baseUrl = $basePath;
+
+require_once __DIR__ . "/views/layouts/header.php";
+require_once __DIR__ . "/views/layouts/menulg.php";
+
+$viewFile = __DIR__ . "/views/pages/{$view}.php";
+if (is_file($viewFile)) {
+    require $viewFile;
+} else {
+    http_response_code(404);
+    require __DIR__ . "/views/pages/404.php";
+}
+
+require_once __DIR__ . "/views/layouts/footer.php";

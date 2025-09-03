@@ -1,6 +1,6 @@
 <div class="border-garage">
-  <div class="p-2 m-1 border-contenedores bg-body-secondary"><h2 class="fs-6 mt-2">MY PROJECTS</h2></div>
-  <div class="p-2 m-1 ms-2">A collection of my life and coding experiments.</div>
+  <div class="p-2 m-1 border-contenedores bg-body-secondary"><h2 class="fs-6 mt-2">HOME</h2></div>
+  <div class="p-2 m-1 ms-2">Welcome friend, this is my sanctuary a place to chill, relax and let ideas flow..</div>
 </div>
 
 <div class="border-garage mt-2">
@@ -105,4 +105,10 @@
     </ul>
     I think this is more like  re-launch I'm still working on this project, but I created it two months ago, added the date has today because today I launched TheLastGarageKid.com
   </div>
+</div>
+
+<div class="border-garage mt-2">
+  <div class="p-2 m-1 border-contenedores bg-body-secondary"><h2 class="fs-6 mt-2">2025/09/02 - LAUNCH DAY!</h2></div>
+  <div class="p-2 m-1 ms-2">Here we go again...</div>
+  <div class="p-2 m-1 ms-2">I'll be uploading my indie projects, and stuff that I like, maybe some resources, tutorials, or whatever this will grow slowly and I don't want to rush it. Just let it be. Ill just launch it as it is, else I never do it.</div>
 </div>

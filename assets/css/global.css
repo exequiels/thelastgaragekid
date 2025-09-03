@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 body {
-  background: #ffffff;
   font: 400 0.75rem/1.125rem 'Press Start 2P', cursive, 'Source Code Pro',
     Inconsolata, 'Lucida Console', Terminal, 'Courier New', Courier;
 }

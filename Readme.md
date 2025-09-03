@@ -1,3 +1,3 @@
 My garage.
 
-And html site to remember old sites and old internet.
+Indie projects, old internet, and stuff that I like. Just my place to be.
