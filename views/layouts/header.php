@@ -11,9 +11,9 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
     </head>
     <body>
-        <div class="container d-flex flex-column my-2 p-1 p-md-3 border-orange bg-warning-subtle" style="min-height: calc(100vh - 1.5rem);">
-            <header class="d-flex align-content-center p-3 text-white">
-                <h1 class="fs-5">TheLastGarageKid</h1>
+        <div class="container d-flex flex-column p-1 p-md-3 border-orange bg-warning-subtle" style="min-height: calc(100vh - 1.5rem);">
+            <header class="">
+                <h1 class="fs-5 py-3 m-1 text-center text-white">TheLastGarageKid</h1>
             </header>
             <div class="row d-block d-lg-none">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
