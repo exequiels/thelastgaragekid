@@ -1,5 +1,5 @@
 RewriteEngine On
-# COmment the next line in local, uncomment in local.
+# COmment the next line in local, uncomment online.
 RewriteBase /thelastgaragekid/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

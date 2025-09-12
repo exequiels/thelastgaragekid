@@ -1,6 +1,11 @@
 <div class="border-garage">
-  <div class="p-2 m-1 border-contenedores bg-body-secondary"><h2 class="fs-6 mt-2">HOME</h2></div>
+  <div class="p-2 m-1 border-contenedores bg-white"><h2 class="fs-6 mt-2">HOME</h2></div>
   <div class="p-2 m-1 ms-2">Welcome friend, this is my sanctuary a place to chill, relax and let ideas flow..</div>
+</div>
+
+<div class="border-garage mt-2">
+  <div class="p-2 m-1 border-contenedores bg-body-secondary"><h2 class="fs-6 mt-2">2025/09/12 - Added the Tools Section</h2></div>
+  <div class="p-2 m-1 ms-2">Some tools, librarys, extensions, I'm using and Id like to have links for. Sometimes you need to reinstall things, update, read docs, etc. It's nice to know what you're using, especially when you get so used to them that you forget about them. The list is incomplete I'll be adding the rest later and probably it will expand in a near future...</div>
 </div>
 
 <div class="border-garage mt-2">
@@ -36,7 +41,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Site
+          Link
         </a>
       </li>
       <li>
@@ -46,7 +51,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Site
+          Link
         </a>
       </li>
       <li>
@@ -56,7 +61,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Site
+          Link
         </a>
       </li> 
       <li>
@@ -66,7 +71,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Site
+          Link
         </a>
       </li>
       <li>
@@ -76,7 +81,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Site
+          Link
         </a>
       </li>
       <li>
@@ -96,7 +101,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Site
+          Link
         </a>
       </li>
       <li>
@@ -106,7 +111,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          Site
+          Link
         </a>
       </li>      
     </ul>
