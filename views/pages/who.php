@@ -3,7 +3,7 @@
   <div class="p-2 m-1 ms-2">Someone enjoying life.</div>
 </div>
 
-<div class="border-garage mt-2">
+<div class="border-garage mt-3">
     <div class="p-2 m-1 border-contenedores bg-body-secondary"><h3 class="fs-6 mt-2">?????</h3></div>
     <div class="p-2 m-1 ms-2">
         <p>

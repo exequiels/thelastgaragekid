@@ -18,13 +18,13 @@
         <meta property="og:description" content="A digital corner where creativity and code meet. Experimental projects, indie ideas, and reflections from the last garage.">
         <meta property="og:type" content="website">
         <meta property="og:url" content="https://thelastgaragekid.com/">
-        <meta property="og:image" content="<?= $baseUrl ?>/assets/imgs/site//preview.png">
+        <meta property="og:image" content="<?= $baseUrl ?>/assets/imgs/site/preview.png">
 
         <!-- Twitter Card -->
         <meta name="twitter:card" content="summary_large_image">
         <meta name="twitter:title" content="The Last Garage Kid">
         <meta name="twitter:description" content="Creativity, code, and indie projects from the 'last garage'.">
-        <meta name="twitter:image" content="<?= $baseUrl ?>/assets/imgs/site//preview.png">
+        <meta name="twitter:image" content="<?= $baseUrl ?>/assets/imgs/site/preview.png">
 
         <!-- JSON-LD Structured Data -->
         <script type="application/ld+json">
@@ -39,7 +39,7 @@
             "name": "Exequiel Sabatie",
             "url": "https://portfolio.sabatie.com.ar/"
             },
-            "image": "https://thelastgaragekid.com/assets/imgs/site//preview.png",
+            "image": "https://thelastgaragekid.com/assets/imgs/site/preview.png",
             "inLanguage": "en"
         }
         </script>

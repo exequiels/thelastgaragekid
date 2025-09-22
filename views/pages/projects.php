@@ -3,7 +3,88 @@
   <div class="p-2 m-1 ms-2">A collection of my life and coding experiments.</div>
 </div>
 
-<div class="border-garage mt-2">
+<div class="border-garage mt-3">
+  <div class="p-2 m-1 border-contenedores bg-body-secondary">
+    <h3 class="fs-6 mt-2">2025/09/16 - Flashlist Collaborative Todo Lists</h3>
+  </div>
+  <div class="p-2 m-1 ms-2">
+    <h3 class="fs-6">What is this project about or how did it start?</h3>
+    <p class="mt-3">
+      I continue practicing React and learning how a Laravel backend works. This is a simple collaborative to-do list: you create a list and share it with someone via WhatsApp. Complete tasks on your own or with family and friends, the list expires after 24 hours.
+    </p><p>
+      You don’t need to register; just generate a list and share it.
+    </p>
+    <p>
+      I thought it could be useful not only for practice, but also for personal tasks. For example, sometimes my wife and I buy groceries and we go back and forth, so this is an easy way to track what we bought or did during the day.
+    </p>
+    <p>Link: 
+      <a href="https://flashlist.com.ar/" target="_blank" rel="noopener">
+        flashlist.com.ar
+      </a>
+    </p>
+    <p>Link:  
+      <a href="<?= $baseUrl ?>/assets/imgs/projects/flashlist/flashlist.png" target="_blank" rel="noopener">
+        <img src="<?= $baseUrl ?>/assets/imgs/projects/thumbnails/flashlist.png" alt="Flashlist Thumbnail" class="img-fluid border-contenedores">
+      </a>  
+    </p>
+    <h3 class="fs-6">What I've used for this project?</h3>
+    <ul class="mt-2">
+      <li>
+        React
+        <a 
+          href="https://react.dev/" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Site
+        </a>
+      </li>
+      <li>
+        TypeScript
+        <a 
+          href="https://www.typescriptlang.org/" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Site
+        </a>
+      </li>
+      <li>
+        Laravel
+        <a 
+          href="https://laravel.com/" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Site
+        </a>
+      </li> 
+      <li>
+        PrimeReact: Component library.
+        <a 
+          href="https://primereact.org/" 
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Site
+        </a>
+      </li>     
+    </ul>
+    <p>
+      Github Repo:
+      <a href="https://github.com/exequiels/flashlist" target="_blank" rel="noopener">
+        flashlist Frontend</a>,
+         <a href="https://github.com/exequiels/flashlist-backend" target="_blank" rel="noopener">
+        flashlist Backend
+      </a>
+    </P>
+    <p>
+      No comments :/
+    </p>
+  </div>
+</div>
+
+<div class="border-garage mt-3">
   <div class="p-2 m-1 border-contenedores bg-body-secondary">
     <h3 class="fs-6 mt-2">2025/09/02 - React Birth Day Cards</h3>
   </div>
@@ -24,7 +105,7 @@
     </p>
     <p>
       <a href="<?= $baseUrl ?>/assets/imgs/projects/tarjetagratis/tarjetagratis.png" target="_blank" rel="noopener">
-        <img src="<?= $baseUrl ?>/assets/imgs/projects/tarjetagratis/thumbnails/tarjetagratis.png" alt="Tarjeta Gratis Thumbnail" class="img-fluid border-contenedores">
+        <img src="<?= $baseUrl ?>/assets/imgs/projects/thumbnails/tarjetagratis.png" alt="Tarjeta Gratis Thumbnail" class="img-fluid border-contenedores">
       </a>  
     </p>
     <h3 class="fs-6">What I've used for this project?</h3>
@@ -122,7 +203,7 @@
   </div>
 </div>
 
-<div class="border-garage mt-2">
+<div class="border-garage mt-3">
   <div class="p-2 m-1 border-contenedores bg-body-secondary">
     <h3 class="fs-6 mt-2">2025/09/02 - The Last Garage Kid</h3>
   </div>
@@ -139,7 +220,7 @@
     <h3 class="fs-6">What I've used for this project?</h3>
     <ul class="mt-2">
       <li>
-        Html, PHP, CSS
+        Html, PHP, CSS, Bootstrap
       </li>
     </ul>
     <p>
