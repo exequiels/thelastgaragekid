@@ -4,6 +4,11 @@
 </div>
 
 <div class="border-garage mt-3">
+  <div class="p-2 m-1 border-contenedores bg-body-secondary"><h2 class="fs-6 mt-2">2025/09/23 - Created a Todo section</h2></div>
+  <div class="p-2 m-1 ms-2">Todo-list of the garage website.</div>
+</div>
+
+<div class="border-garage mt-3">
   <div class="p-2 m-1 border-contenedores bg-body-secondary"><h2 class="fs-6 mt-2">2025/09/22 - Added more tools</h2></div>
   <div class="p-2 m-1 ms-2">Added some of the main technologies that we can use to build web applications.</div>
 </div>
