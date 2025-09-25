@@ -52,7 +52,7 @@
     </head>
     <body>
         <div class="container d-flex flex-column p-1 p-md-3 border-orange bg-warning-subtle" style="min-height: calc(100vh - 1.5rem);">
-            <header class="">
+            <header class="shadow-garage">
                 <h1 class="fs-5 py-3 m-1 text-center text-white">TheLastGarageKid</h1>
             </header>
             <div class="row d-block d-lg-none">

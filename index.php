@@ -25,6 +25,18 @@ $baseUrl = $basePath;
 $tools = [];
 $error = null;
 
+if ($view === 'home') {
+    require_once __DIR__ . '/controllers/PostsController.php';
+    $controller = new PostsController($pdo);
+    $posts = $controller->index();
+}
+
+if ($view === 'projects') {
+    require_once __DIR__ . '/controllers/PostsController.php';
+    $controller = new PostsController($pdo);
+    $posts = $controller->projects();
+}
+
 if ($view === 'tools') {
     require_once __DIR__ . '/controllers/ToolsController.php';
     $controller = new ToolsController($pdo, $baseUrl);

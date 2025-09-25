@@ -10,6 +10,9 @@ switch ($view) {
     case 'tools':
         $pageTitle = "Tools | The Last Garage Kid";
         break;
+    case 'todo':
+        $pageTitle = "Todo List | The Last Garage Kid";
+        break;
     case 'who':
         $pageTitle = "Who | The Last Garage Kid";
         break;
