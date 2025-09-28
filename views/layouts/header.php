@@ -57,7 +57,7 @@
             </header>
             <div class="row d-block d-lg-none">
                 <div class="accordion accordion-flush" id="accordionFlushExample">
-                    <div class="accordion-item bg-warning-subtle">
+                    <div class="accordion-item bg-warning-subtle shadow-garage">
                         <h2 class="accordion-header">
                         <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                             MENU

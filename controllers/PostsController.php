@@ -42,6 +42,12 @@ class PostsController
                     $html
                 );
 
+                $html = preg_replace(
+                    '/<img\s+([^>]*?)>/i',
+                    '<img $1 class="img-fluid d-block mx-auto">',
+                    $html
+                );
+
                 $post['content_html'] = $html;
             }
 
