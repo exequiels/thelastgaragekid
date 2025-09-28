@@ -1,5 +1,6 @@
 RewriteEngine On
-RewriteBase /thelastgaragekid/ #COmment in prod, this is just for local with xammp.
+# COmment the next line in prod, uncomment in local.
+RewriteBase /thelastgaragekid/
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^ index.php [L]

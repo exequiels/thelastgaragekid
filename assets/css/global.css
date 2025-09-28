@@ -23,3 +23,7 @@ footer {
 .border-contenedores {
   border: 0.3rem solid #999999;
 }
+
+.shadow-garage {
+  box-shadow: 0.25rem 0.25rem 0.25rem 0 rgb(0 0 0 / 0.2);
+}
