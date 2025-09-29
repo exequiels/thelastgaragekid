@@ -26,7 +26,7 @@ I like where this is going.
 
 ## Structure
 
-I've tried to create folders that refence themselves and also that can be similar to what you find in laravel or even in a node backend, since folders structures tend to be similar. I could have donde a separated folder like "Backend" or something similar but do to the small nature of this project I tought it was not necessary, ill just keep this really simple.
+I've tried to create folders that refence themselves and also that can be similar to what you find in laravel or even in a node backend, since folders structures tend to be similar. I could have done a separated folder like "Backend" or something similar but do to the small nature of this project I tought it was not necessary, ill just keep this really simple.
 
 - [routes]
 - [views]
@@ -45,7 +45,7 @@ I've tried to create folders that refence themselves and also that can be simila
 
 ## Tools
 
-I already have a list of tools that I'm using on my website [https://thelastgaragekid.com](https://thelastgaragekid.com) but I'll include any usefull ones while doing this project.
+I already have a list of tools that I'm using on my website [https://thelastgaragekid.com](https://thelastgaragekid.com/tools) but I'll include any usefull ones while doing this project.
 
 - [regex101.com](https://regex101.com)
 - [mycompiler.io](https://www.mycompiler.io/new/php)
