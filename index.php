@@ -43,6 +43,12 @@ if ($view === 'tools') {
     $tools = $controller->index();
 }
 
+if ($view === 'wiki') {
+    require_once __DIR__ . '/controllers/WikiController.php';
+    $controller = new WikiController();
+    $wikiContent = $controller->index();
+}
+
 require_once __DIR__ . "/views/layouts/titles.php";
 require_once __DIR__ . "/views/layouts/header.php";
 require_once __DIR__ . "/views/layouts/menulg.php";

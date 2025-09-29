@@ -1,4 +1,4 @@
-My garage.
+# My garage.
 
 Indie projects, old internet, new internet, and stuff that I like. Just my place to be.
 
