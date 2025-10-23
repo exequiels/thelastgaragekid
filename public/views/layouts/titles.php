@@ -13,6 +13,9 @@ switch ($view) {
     case 'todo':
         $pageTitle = "Todo List | The Last Garage Kid";
         break;
+    case 'wiki':
+        $pageTitle = "Wiki | The Last Garage Kid";
+        break;
     case 'who':
         $pageTitle = "Who | The Last Garage Kid";
         break;

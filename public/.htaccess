@@ -1,0 +1,12 @@
+RewriteEngine On
+# COmment the next line in prod, uncomment in local.
+RewriteBase /thelastgaragekid/public/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+<Files ".env">
+    Require all denied
+    Order allow,deny
+    Deny from all
+</Files>

@@ -1,13 +1,13 @@
 <?php
 
-require_once __DIR__ . '/vendor/autoload.php';
-require_once __DIR__ . '/helpers/escape.php';
-$routes = require __DIR__ . '/routes/web.php';
+require_once __DIR__ . '/../backend/vendor/autoload.php';
+require_once __DIR__ . '/../backend/helpers/escape.php';
+$routes = require __DIR__ . '/../backend/routes/web.php';
 
-$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/../backend');
 $dotenv->load();
 
-require_once __DIR__ . "/config/connect.php";
+require_once __DIR__ . "/../backend/config/connect.php";
 
 $basePath = rtrim(dirname($_SERVER['SCRIPT_NAME']), '/\\');
 $requestPath = parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
@@ -19,28 +19,44 @@ if ($requestPath === '') {
     $requestPath = '/';
 }
 
+// $wikiSubPath = null;
+// if (strpos($requestPath, '/wiki') === 0) {
+//     $view = 'wiki';
+
+//     $wikiSubPath = substr($requestPath, 5);
+//     $wikiSubPath = ltrim($wikiSubPath, '/');
+// } else {
+//     $view = $routes[$requestPath] ?? '404';
+// }
+$baseUrl = $_ENV['APP_URL'] ?? $basePath;
 $view = $routes[$requestPath] ?? '404';
-$baseUrl = $basePath;
 
 $tools = [];
 $error = null;
 
 if ($view === 'home') {
-    require_once __DIR__ . '/controllers/PostsController.php';
+    require_once __DIR__ . '/../backend/controllers/PostsController.php';
     $controller = new PostsController($pdo);
     $posts = $controller->index();
 }
 
 if ($view === 'projects') {
-    require_once __DIR__ . '/controllers/PostsController.php';
+    require_once __DIR__ . '/../backend/controllers/PostsController.php';
     $controller = new PostsController($pdo);
     $posts = $controller->projects();
 }
 
 if ($view === 'tools') {
-    require_once __DIR__ . '/controllers/ToolsController.php';
+    require_once __DIR__ . '/../backend/controllers/ToolsController.php';
     $controller = new ToolsController($pdo, $baseUrl);
     $tools = $controller->index();
+}
+
+if ($view === 'wiki') {
+    require_once __DIR__ . '/../backend/controllers/WikiController.php';
+    $controller = new WikiController();
+    $wikiContent = $controller->index();
+    // $wikiContent = $controller->index($wikiSubPath);
 }
 
 require_once __DIR__ . "/views/layouts/titles.php";
