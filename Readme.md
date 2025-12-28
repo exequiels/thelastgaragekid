@@ -49,3 +49,12 @@ I already have a list of tools that I'm using on my website [https://thelastgara
 
 - [regex101.com](https://regex101.com)
 - [mycompiler.io](https://www.mycompiler.io/new/php)
+
+<!-- PORTFOLIO_DATA_START
+**Stack:** Php no frames, bootstrap, html, css.
+**Description:** My hooby website
+**Highlights:**
+- Using classes
+- Front Controller + Simple Router + MVC DIY (no framework)
+- Routing → Controller → Logic/DB → Vista (PHP templates)
+PORTFOLIO_DATA_END -->
