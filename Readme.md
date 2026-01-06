@@ -6,23 +6,28 @@ I'm going to start rough documentation of things I'm learning, along with concep
 
 ## My PHP Evolution
 
-Just in case someone starting php ever sees my project and thinks it's interesting of any use for them, ill let you know how it started for me like I said before it will also help myself.
-
-- [Spaghetti script in the same php file](#spaghetti)
-- [Basic MVC hibrid bettween my spaghetti and new ideas](#spaghetti-hibrid)
-- [This attempt to do more of a Standard MVC like the ones in frameworks](#standard-mvc)
+Just in case someone starting PHP ever sees my project and thinks it's interesting of any use for them, ill let you know how it started for me like I said before it will also help myself.
 
 ### Spaghetti
 
-### Spaghetti-hibrid
+This is the most basic approach where HTML, CSS, Logic (PHP), and Database queries are all mixed together in a single file.
+Fast to write for very small projects, extremely difficult to maintain and escalate.
 
-### Standard-mvc
+### Spaghetti-Hibrid
+
+This is an intermediate step I started to separate concerns didn't fully committed to a framework structure. Something like having files for a header.php, footer.php, and separate files for functions, but still lack of organization, and in larger projects hard to maintain also.
+
+### Standard-MVC
+
+This is the professional architecture used by modern frameworks like Laravel or Symfony. A strict separation of duties:
+Model: Handles data and business logic (Database interaction).
+View: Handles only the presentation (HTML/UI).
+Controller: The "brain" that connects the Model and the View based on the user's request.
+Front Controller & Routing: Unlike the other two, this uses a single entry point (usually index.php). A Router intercepts the URL and tells the application exactly which Controller to trigger.
+
+This is what I'm trying to acomplish in this project.
 
 ---
-
-## The Last Garage Kid
-
-I like where this is going.
 
 ## Structure
 
@@ -49,3 +54,23 @@ I already have a list of tools that I'm using on my website [https://thelastgara
 
 - [regex101.com](https://regex101.com)
 - [mycompiler.io](https://www.mycompiler.io/new/php)
+
+## What I'm learning and practing in this project
+
+- A more professional architecture Model, View, Controller.
+- How to create a cache file.
+- How to create a small router.
+- Parsedown library to parse markdown.
+- Also learned a small github trick sometimes projects with php no framework get tagged has hack code, so fix this we need to create a `.gitattributes` file, and add `*.php linguist-language=PHP` to it, then do a push and that will fix it.
+
+<!-- PORTFOLIO_DATA_START
+**Stack:** Php no frames, bootstrap, html, css.
+**Description:** My hooby website
+**What I've learned and tested:**
+- A more Standard-MVC like the ones that professional architecture used by modern frameworks like Laravel or Symfony.
+- Also learned a small github trick sometimes projects with php no framework get tagged has hack code, so fix this we need to create a .gitattributes file, and add *.php linguist-language=PHP to it, then do a push and that will fix it.
+**Highlights:**
+- Using classes
+- Front Controller + Simple Router + MVC DIY (no framework)
+- Routing → Controller → Logic/DB → Vista (PHP templates)
+PORTFOLIO_DATA_END -->
