@@ -9,7 +9,7 @@
     <ul class="px-3 px-md-5">
         <li class="mt-2">Flashlist project: migrate everything to Next.js or find a solution for SEO.</li>
         <li class="mt-2">Tarjetasgratis: migrate everything to Next.js or find a solution for SEO.</li>
-        <li class="mt-2">Old baby affiliate marketing test site that I created: refactor, add Next.js, SSR, or another solution to make them SEO-friendly.</li>
+        <li class="mt-2"><s>Old baby affiliate marketing test site that I created: refactor, add Next.js, SSR, or another solution to make them SEO-friendly.</s> Decided to delete this project.</li>
         <li class="mt-2">Add more pages to my WIKI and start updating it regularly.</li>
         <li class="mt-2"><s>Thelastgaragekid project: move .env and all backend files outside public_html.</s></li>
         <li class="mt-2">Add an Articles section to the site, so news categorized as articles can go there. Maybe also a News section only for announcements? Not sure yet, will see.</li>
