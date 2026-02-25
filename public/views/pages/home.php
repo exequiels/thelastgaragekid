@@ -14,7 +14,7 @@
     </p>
 
     <ul>
-      <li>AWS Cloud Essentials – Knowledge Badge Assessment</li>
+      <li><s>AWS Cloud Essentials – Knowledge Badge Assessment</s></li>
       <li>AWS Certified Cloud Practitioner</li>
       <li>Introduction to Linux (LFS101)</li>
       <li>Continue toward AWS Solutions Architect Associate (if I finish the three above, at least begin this one).</li>
