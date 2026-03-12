@@ -16,18 +16,18 @@
     <ul>
       <li><s>AWS Cloud Essentials – Knowledge Badge Assessment</s></li>
       <li>AWS Certified Cloud Practitioner</li>
-      <li>Introduction to Linux (LFS101)</li>
+      <li>Introduction to Linux (LFS101) - Starting this one.</li>
       <li>Continue toward AWS Solutions Architect Associate (if I finish the three above, at least begin this one).</li>
-      <li>Start a personal exploration project: a video game using the NASA API and Kaplay library.</li>
-      <li>Start a personal exploration project: one affiliate marketing site built exclusively with HTML / HTML + PHP / or Astro.</li>
-      <li>Finish personal exploration project: “El Observador”.</li>
+      <li><s>Start a personal exploration project: a video game using the NASA API and Kaplay library.</s> - Started the project, on going at 10% currently.</li>
+      <li><s>Start a personal exploration project: one affiliate marketing site built exclusively with HTML / HTML + PHP / or Astro.</s> - Finally, I will create another one for more exploration and testing I like the affiliation subject.</b></li>
+      <li>Finish personal exploration project: “El Observador”. - This one is moving 75% done</li>
       <li>Finish personal exploration project: “PocketAdmin”.</li>
-      <li>Finish personal exploration project: sports platform system with my friend Mariano.</li>
+      <li>Finish personal exploration project: sports platform system with my friend Mariano. - This one is moving 50% done</li>
       <li>Personal exploration project: build something inside the AWS environment using Brazil and Amazon Code.</li>
-      <li>Continue practicing React.</li>
-      <li>Continue practicing JavaScript.</li>
+      <li>Continue practicing React. - I'm on it.</li>
+      <li>Continue practicing JavaScript. - I'm on it.</li>
       <li>Start learning some Python and begin training AI models using Kaggle.</li>
-      <li>Read 4 books this year.</li>
+      <li>Read 4 books this year. - One down, three to go.</li>
     </ul>
   </div>
 </div>
